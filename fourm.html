@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Medical History Form</title>
+</head>
+<body>
+    <h2>Patient Medical History Form</h2>
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="bloodgroup">Blood Group:</label>
+        <select id="bloodgroup" name="bloodgroup">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select><br><br>
+
+        <label for="allergies">Allergies:</label><br>
+        <textarea id="allergies" name="allergies" rows="4" cols="50"></textarea><br><br>
+
+        <label for="medications">Medications Currently Taken:</label><br>
+        <textarea id="medications" name="medications" rows="4" cols="50"></textarea><br><br>
+
+        <label for="medical_history">Medical History:</label><br>
+        <textarea id="medical_history" name="medical_history" rows="4" cols="50"></textarea><br><br>
+
+        <label for="additional_notes">Additional Notes:</label><br>
+        <textarea id="additional_notes" name="additional_notes" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
