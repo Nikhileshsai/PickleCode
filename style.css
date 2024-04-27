@@ -1,0 +1,104 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50px ;
+}
+.intro{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+}
+.intro>div{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 20px;
+}
+.submit{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.location
+{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    column-gap: 5px;
+}
+.location>input{
+    height: 20px;
+}
+#loc{
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+}
+.prob{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    column-gap: 5px;
+}
+#prob{
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    height: 20px;
+    width: 20vw;
+}
+#doctors{
+    display: flex;
+}
+.doctor{
+    border-radius: 50px;
+    display: flex;
+    row-gap: 10px;
+    width: 30vw;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(103, 168, 232);
+}
+.doctorcontext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.doctor:hover{
+    background-color: rgb(77, 115, 239);
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 25px;
+}
+.photo
+{
+    width: 10vw;
+}
+.docslocation{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 20px;
+}
